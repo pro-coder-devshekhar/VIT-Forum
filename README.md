@@ -6,7 +6,7 @@ Project Started on : 02-02-2022 9:33 AM
 TO-DOs
 - [x] Create Github Repo.
 - [x] create-react-app
-- [ ] set up firebase
+- [x] set up firebase
 - [ ] complete the basic frontend part.
 - [ ] firestore setup.
 - [ ] Google Auth restricted to vitstudent.ac.in
