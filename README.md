@@ -1,9 +1,9 @@
 # VIT-Forum
-Realtime Forum App for VIT Students. React.js + Firebase.
+Forum App for VIT Students. React.js + Firebase.
 
 Project Started on : 02-02-2022 9:33 AM
 
-TO-DOs
+TO-DOs: 
 - [x] Create Github Repo.
 - [x] create-react-app
 - [x] set up firebase
@@ -11,13 +11,17 @@ TO-DOs
 - [x] firestore setup.
 - [x] Google Auth restricted to vitstudent.ac.in
 - [x] Host on Netlify
-- [x] Netlify: Continuos Integration with Github Repo.
-- [ ] Create Separate Components
-- [ ] Use Context API
-- [ ] USE JWT
-- [ ] Dockerize the app
 - [ ] Add Contributors Section in Readme
-- [ ] Market about the App.
+- [x] Netlify: Continuos Integration with Github Repo.
+- [ ] Dockerize the app
+- [ ] Deploy on cloud.
+- [ ] Use Context API
+- [ ] Version 2
+- [ ] Separate Client and Server
+- [ ] Use JWT
+- [ ] Use Socket.io
+- [ ] Create Separate Components
+- [ ] Documentation.
 
 Feature Update Ideas
 - [ ] Make the UI nicer:similar to combination of WhatsApp group chat and MS Teams direct message.
