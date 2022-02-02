@@ -7,8 +7,8 @@ TO-DOs
 - [x] Create Github Repo.
 - [x] create-react-app
 - [x] set up firebase
-- [ ] complete the basic frontend part.
-- [ ] firestore setup.
+- [x] complete the basic frontend part.
+- [x] firestore setup.
 - [ ] Google Auth restricted to vitstudent.ac.in
 - [ ] Host on Netlify
 - [ ] Create Separate Components
@@ -19,7 +19,7 @@ TO-DOs
 - [ ] Market about the App.
 
 Feature Update Ideas
-- [ ] Make the UI nicer
+- [ ] Make the UI nicer:similar to combination of WhatsApp group chat and MS Teams direct message.
 - [ ] Ability to categorize the message like : Doubt, Suggestion, Advice, Etc
 - [ ] Ability to send reply to an earlier message.
 - [ ] Create a PWA
