@@ -13,6 +13,7 @@ TO-DOs
 - [ ] Host on Netlify
 - [ ] Create Separate Components
 - [ ] Use Context API
+- [ ] USE JWT
 - [ ] Dockerize the app
 - [ ] Add Contributors Section in Readme
 - [ ] Market about the App.
