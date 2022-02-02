@@ -144,12 +144,12 @@ body {
   
   .sent p {
     color: white;
-    background: #0b93f6;
+    background: #0bf694b6;
     align-self: flex-end;
   }
   .received p {
-    background: #e5e5ea;
-    color: black;
+    background: #424242;
+    color: white;
   }
   
   img {
