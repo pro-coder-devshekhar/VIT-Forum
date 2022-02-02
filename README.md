@@ -8,7 +8,7 @@ TO-DOs
 - [x] create-react-app
 - [ ] set up firebase
 - [ ] complete the basic frontend part.
-- [ ] realtime database setup.
+- [ ] firestore setup.
 - [ ] Google Auth restricted to vitstudent.ac.in
 - [ ] Host on Netlify
 - [ ] Dockerize the app
