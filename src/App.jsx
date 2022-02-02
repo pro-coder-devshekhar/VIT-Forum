@@ -1,5 +1,5 @@
 import './App.css';
-import vit_logo from './vit.jpg'
+// import vit_logo from './vit.jpg'
 import { useRef,useState } from 'react';
 // import env from 'react-dotenv'
 // importing Firebase components
