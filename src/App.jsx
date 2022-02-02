@@ -52,6 +52,9 @@ function SignIn(){
     
   const signInWithGoogle = () => {
       const provider = new firebase.auth.GoogleAuthProvider();
+      provider.setCustomParameters({
+        'hd':'vitstudent.ac.in'
+      })
       auth.signInWithPopup(provider);
   }
 
