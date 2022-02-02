@@ -11,30 +11,28 @@ import {useAuthState} from 'react-firebase-hooks/auth'
 import {useCollectionData} from 'react-firebase-hooks/firestore'
 
 // can be exposed to github.
-const firebaseConfig = {
-  apiKey: "AIzaSyA6brviwkRlRi0wc8nNBHr32iBDUDv-2AY",
-  authDomain: "vit-forum-b462e.firebaseapp.com",
-  projectId: "vit-forum-b462e",
-  storageBucket: "vit-forum-b462e.appspot.com",
-  messagingSenderId: "273726707001",
-  appId: "1:273726707001:web:f4023202ef34d8184fc4e8"
-};
+firebase.initializeApp({
+    apiKey: "AIzaSyA6brviwkRlRi0wc8nNBHr32iBDUDv-2AY",
+    authDomain: "vit-forum-b462e.firebaseapp.com",
+    projectId: "vit-forum-b462e",
+    storageBucket: "vit-forum-b462e.appspot.com",
+    messagingSenderId: "273726707001",
+    appId: "1:273726707001:web:f4023202ef34d8184fc4e8"
+  })
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth()
-const firestore = firebase.firestore()
-
+const auth = firebase.auth();
+const firestore = firebase.firestore();
 
 export default function App() {
   // auth state
   const [user] = useAuthState(auth);
-  
+
   return (
     <div className="App">
       <header>
         {/* <img src={vit_logo} alt="vit_logo" width='250px'/> */}
-        <h2>VITC</h2>
+        <h1>VITC</h1>
         <SignOut />
       </header>
       <section>
@@ -44,32 +42,32 @@ export default function App() {
   );
 }
 
-function SignIn(){
-    
+function SignIn() {
+
   const signInWithGoogle = () => {
-      const provider = new firebase.auth.GoogleAuthProvider();
-      provider.setCustomParameters({
-        'hd':'vitstudent.ac.in'
-      })
-      auth.signInWithPopup(provider);
+    const provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({
+      'hd':'vitstudent.ac.in'
+    })
+    auth.signInWithPopup(provider);
   }
 
-  return(
-      <div className="SignIn">
-          <h3>😇: manish.swami2019@vitstudent.ac.in</h3>
-          <h3>👿: manish.swami@gmail.com</h3>
-          <button className='sign-in' onClick={signInWithGoogle}>Sign in with Google</button>
-      </div>
+  return (
+    <>
+      <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
+    </>
   )
+
 }
 
-function SignOut(){
+function SignOut() {
   return auth.currentUser && (
-    <button className='sign-out' onClick={()=>auth.signOut()}>Sign Out</button>
+    <button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
   )
 }
 
-function Forum(){
+
+function Forum() {
   const dummy = useRef();
   const messagesRef = firestore.collection('messages');
   const query = messagesRef.orderBy('createdAt').limit(25);
@@ -96,17 +94,17 @@ function Forum(){
   }
 
   return (
-    <div className='Forum'>
-      <main>
-        {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
-        <span ref={dummy}></span>
-      </main>
+  <div className='Forum'>
+    <main>
+      {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+      <span ref={dummy}></span>
+    </main>
 
-      <form onSubmit={sendMessage}>
-        <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
-        <button type="submit" disabled={!formValue}>🚀</button>
-      </form>
-    </div>
+    <form onSubmit={sendMessage}>
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <button type="submit" disabled={!formValue}>🚀</button>
+    </form>
+  </div>
   )
 }
 
@@ -117,7 +115,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt="a" />
+      <img src={photoURL} alt='👨‍💻'/>
       <p>{text}</p>
     </div>
   </>)
