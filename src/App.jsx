@@ -11,12 +11,6 @@ import {useCollectionData} from 'react-firebase-hooks/firestore'
 
 // can be exposed to github.
 const firebaseConfig = {
-  // apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  // authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  // projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  // storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  // messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  // appId: process.env.REACT_APP_FIREBASE_APP_ID
   apiKey: "AIzaSyA6brviwkRlRi0wc8nNBHr32iBDUDv-2AY",
   authDomain: "vit-forum-b462e.firebaseapp.com",
   projectId: "vit-forum-b462e",
