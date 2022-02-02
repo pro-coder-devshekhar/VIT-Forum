@@ -10,7 +10,7 @@ body {
   
   .App header {
     background-color: #181717;
-    height: 10vh;
+    height: 13vh;
     min-height: 50px;
     color: white;
     position: fixed;
@@ -23,6 +23,10 @@ body {
     z-index: 99;
     padding: 10px;
     box-sizing: border-box;
+  }
+
+  .App header img {
+    background-color: white;
   }
   
   .App section {

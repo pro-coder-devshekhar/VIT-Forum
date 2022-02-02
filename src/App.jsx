@@ -1,4 +1,5 @@
 import './App.css';
+import vit_logo from './vit.jpg'
 import { useRef,useState } from 'react';
 // import env from 'react-dotenv'
 // importing Firebase components
@@ -32,7 +33,8 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h1>VIT LOGO</h1>
+        {/* <img src={vit_logo} alt="vit_logo" width='250px'/> */}
+        <h2>VITC</h2>
         <SignOut />
       </header>
       <section>
