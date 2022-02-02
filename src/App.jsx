@@ -32,7 +32,7 @@ export default function App() {
     <div className="App">
       <header>
         {/* <img src={vit_logo} alt="vit_logo" width='250px'/> */}
-        <h1>VITC</h1>
+        <h1>VITC Forum</h1>
         <SignOut />
       </header>
       <section>
