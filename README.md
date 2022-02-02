@@ -11,6 +11,8 @@ TO-DOs
 - [ ] firestore setup.
 - [ ] Google Auth restricted to vitstudent.ac.in
 - [ ] Host on Netlify
+- [ ] Create Separate Components
+- [ ] Use Context API
 - [ ] Dockerize the app
 - [ ] Add Contributors Section in Readme
 - [ ] Market about the App.
