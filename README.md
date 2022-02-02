@@ -9,8 +9,8 @@ TO-DOs
 - [x] set up firebase
 - [x] complete the basic frontend part.
 - [x] firestore setup.
-- [ ] Google Auth restricted to vitstudent.ac.in
-- [ ] Host on Netlify
+- [x] Google Auth restricted to vitstudent.ac.in
+- [x] Host on Netlify
 - [ ] Create Separate Components
 - [ ] Use Context API
 - [ ] USE JWT
