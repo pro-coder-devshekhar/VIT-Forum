@@ -5,7 +5,7 @@ Project Started on : 02-02-2022 9:33 AM
 
 TO-DOs
 - [x] Create Github Repo.
-- [ ] create-react-app
+- [x] create-react-app
 - [ ] set up firebase
 - [ ] complete the basic frontend part.
 - [ ] realtime database setup.
