@@ -11,7 +11,7 @@ TO-DOs
 - [x] firestore setup.
 - [x] Google Auth restricted to vitstudent.ac.in
 - [x] Host on Netlify
-- [ ] Netlify: Continuos Integration with Github Repo.
+- [x] Netlify: Continuos Integration with Github Repo.
 - [ ] Create Separate Components
 - [ ] Use Context API
 - [ ] USE JWT
