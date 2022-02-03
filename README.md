@@ -11,7 +11,7 @@ TO-DOs:
 - [x] firestore setup.
 - [x] Google Auth restricted to vitstudent.ac.in
 - [x] Host on Netlify
-- [ ] Add Contributors Section in Readme
+- [x] Add Contributors Section in Readme
 - [x] Netlify: Continuos Integration with Github Repo.
 - [ ] Dockerize the app
 - [ ] Deploy on cloud.
@@ -34,6 +34,6 @@ Feature Update Ideas
 - [ ] Ban a user if Report count > some number 🤔.
 
 # Contributors
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = ManishS6/VIT-Forum"/>
+<a href="https://github.com/ManishS6/VIT-Forum/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ManishS6/VIT-Forum" />
 </a>
