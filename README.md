@@ -32,3 +32,8 @@ Feature Update Ideas
 - [ ] Direct Message
 - [ ] Report a Message.
 - [ ] Ban a user if Report count > some number 🤔.
+
+# Contributors
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = ManishS6/VIT-Forum"/>
+</a>
