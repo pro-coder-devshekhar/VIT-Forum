@@ -13,6 +13,8 @@ TO-DOs:
 - [x] Host on Netlify
 - [x] Add Contributors Section in Readme
 - [x] Netlify: Continuos Integration with Github Repo.
+- [ ] server: json-server db.json to store messages
+- [ ] deploying that server. But where? 🤔
 - [ ] Dockerize the app
 - [ ] Deploy on cloud.
 - [ ] Use Context API
