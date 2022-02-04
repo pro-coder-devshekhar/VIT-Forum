@@ -80,13 +80,15 @@ function Forum() {
   const sendMessage = async (e) => {
     e.preventDefault();
 
-    const { uid, photoURL } = auth.currentUser;
+    const { displayName, email, uid, photoURL } = auth.currentUser;
 
     await messagesRef.add({
       text: formValue,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
       uid,
-      photoURL
+      photoURL,
+      displayName,
+      email
     })
 
     setFormValue('');
@@ -109,14 +111,25 @@ function Forum() {
 }
 
 function ChatMessage(props) {
-  const { text, uid, photoURL } = props.message;
-
+  const { displayName, text, uid, photoURL } = props.message;
+//   const DateFormat = (s) => {
+//     var sec_num = parseInt(s, 10); // don't forget the second param
+//     var hours   = Math.floor(sec_num / 3600);
+//     var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+//     // var seconds = sec_num - (hours * 3600) - (minutes * 60);
+//     if (hours   < 10) {hours   = "0"+hours;}
+//     if (minutes < 10) {minutes = "0"+minutes;}
+//     return hours+':'+minutes;
+// }
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
 
-  return (<>
+  return (<div key={`${messageClass}`}>
     <div className={`message ${messageClass}`}>
+      {/* <h6>{DateFormat(`${createdAt.seconds}`)}</h6> */}
+      <h3>{displayName}</h3><br />
       <img src={photoURL} alt='👨‍💻'/>
       <p>{text}</p>
+
     </div>
-  </>)
+  </div>)
 }
