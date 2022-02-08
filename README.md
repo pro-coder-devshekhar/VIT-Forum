@@ -13,27 +13,8 @@ TO-DOs:
 - [x] Host on Netlify
 - [x] Add Contributors Section in Readme
 - [x] Netlify: Continuos Integration with Github Repo.
-- [ ] new branch->server: json-server db.json to store messages
-- [ ] new branch-deploying that server. But where? 🤔 if Heroku then Kaffeine to be used.
-- [ ] Dockerize the app
-- [ ] Deploy on cloud.
-- [ ] Use Context API
-- [ ] Version 2
-- [ ] Separate Client and Server
-- [ ] Use JWT
-- [ ] Use Socket.io
-- [ ] Create Separate Components
-- [ ] Documentation.
 
-Feature Update Ideas
-- [ ] Make the UI nicer:similar to combination of WhatsApp group chat and MS Teams direct message.
-- [ ] Ability to categorize the message like : Doubt, Suggestion, Advice, Etc
-- [ ] Ability to send reply to an earlier message.
-- [ ] Create a PWA
-- [ ] Notifications
-- [ ] Direct Message
-- [ ] Report a Message.
-- [ ] Ban a user if Report count > some number 🤔.
+Branched to React+FireBase.
 
 # Contributors
 <a href="https://github.com/ManishS6/VIT-Forum/graphs/contributors">
