@@ -1,8 +1,6 @@
 # VIT-Forum
 Forum App for VIT Students. React.js + Firebase.
 
-Project Started on : 02-02-2022 9:33 AM
-
 TO-DOs: 
 - [x] Create Github Repo.
 - [x] create-react-app
