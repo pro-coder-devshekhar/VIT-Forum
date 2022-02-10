@@ -1,5 +1,5 @@
 # VIT-Forum
-Forum App for VIT Students. React.js + Firebase.
+## Forum App for VIT Students. React.js + Firebase.
 
 TO-DOs: 
 - [x] Create Github Repo.
